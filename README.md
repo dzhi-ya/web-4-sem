@@ -424,32 +424,7 @@ Date: Mon, 27 Jul 2009 12:28:53 GMT
 Server: Apache/2.2.14 (Win32)
 ```
 
-### Примеры применения методов для разработанного вами API
-```json
-{
-  "request" : {
-    "urlPath" : "/sale",
-    "method" : "GET"
-  },
-  "response" : {
-    "status": 200,
-    "body": "{{requ}}"
-  }
-}
-```
 
-```json
-{
-	"request": {
-		"method": "GET",
-		"url": "/veb-veb"
-	},
-	"response": {
-		"status": 200,
-		"bodyFileName": "../__files/veb-veb.jpg"
-	}
-}
-```
 
 ### Ссылки на источники:
 - https://developer.mozilla.org/ru/docs/Web/HTTP/Methods
