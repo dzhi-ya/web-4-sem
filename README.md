@@ -411,13 +411,6 @@ Server: Apache/2.2.14 (Win32)
 
 
 
-
-
-
-
-```php
-
-```
 ### Ссылки на источники:
 - https://developer.mozilla.org/ru/docs/Web/HTTP/Methods
 - https://zametkinapolyah.ru/servera-i-protokoly/tema-7-opredelenie-metodov-http-http-method-definitions-metody-http-zaprosov.html#_HTTP
