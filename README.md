@@ -1,6 +1,6 @@
 # hw-6
 
-[Защита hw-6](https://drive.google.com/)
+[Защита hw-6](https://drive.google.com/file/d/1kaasZBtoxwCOhM7o3iPr4WiSDf66Vair/view?usp=sharing)
 
 ## Сделано
 **На "3".**
