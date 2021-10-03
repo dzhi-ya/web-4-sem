@@ -1,7 +1,7 @@
 # hw-2
 
 
-[Защита hw-2](https://drive.google.com/)
+[Защита hw-2](https://drive.google.com/file/d/1a8SkFXs9kret8HT3cj356hvL9ZFcazTF/view?usp=sharing)
 
 ## Сделано
 
