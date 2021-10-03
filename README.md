@@ -1,6 +1,6 @@
 # hw-1
 
-[Защита hw-1](https://drive.google.com/)
+[Защита hw-1](https://drive.google.com/file/d/1iwddr63dwDyIZDgKPUkzJPN0Fv3wncNK/view?usp=sharing)
 
 ## Сделано
 - Установить Docker на домашний компьютер.
