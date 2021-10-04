@@ -1,0 +1,34 @@
+proxy_cache_path /data/nginx/cache levels=1:2 keys_zone=all:64m inactive=60m;
+server {
+    charset UTF-8;
+    listen       80;
+    listen  [::]:80;
+    server_name  ${NGINX_CUSTOM_SERVER_NAME};
+
+    access_log  /var/log/nginx/host.access.log  main;
+    error_log  /var/log/nginx/host.error.log;
+
+    location / {
+        root /data/www;
+        expires 360d;
+        add_header Cache-Control "public";
+    }
+
+    location /images/ {
+        root   /data;
+        expires 360d;
+        add_header Cache-Control "public";
+    }
+    location /text/ {
+        root   /data;
+    }
+    location /media/ {
+        root   /data;
+    }
+
+
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+}
